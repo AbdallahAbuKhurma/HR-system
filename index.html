@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>HR System</h1>
+    </header>
+    <main>
+        <section id="section">
+            <form action="" id="employeeForm">
+                <fieldset>
+                    <legend id="text" class="input">Add Employee</legend>
+                    <label id="text" class="input" for="name">Name</label>
+                    <input class="input" type="text" name="name" id="name">
+                    <label id="text" class="input" for="email">Email</label>
+                    <input class="input" type="text" name="email" id="email">
+                    <label id="text" class="input" for="department">Department</label>
+                    <select class="input" name="department" id="department">
+                        <option value="Call-Center">Call-Center</option>
+                        <option value="Information-Technology">Information-Technology</option>
+                        <option value="Human-Resources">Human-Resources</option>
+                    </select>
+                    <input class="input" id="submit" type="submit" value="submit">
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="sectiontwo">
+            <table id="employeeTable"></table>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="./JS/app.js"></script>
+</body>
+</html>
