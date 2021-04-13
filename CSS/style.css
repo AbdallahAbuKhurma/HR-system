@@ -10,7 +10,7 @@ header h1{
 }
 
 body{
-    background-image: url('/assests/bk.jpg');
+    background-image: url('./assests/bk.jpg');
     background-repeat: no-repeat;
     background-size: 100% 1000px;
 }
